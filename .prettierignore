@@ -1,0 +1,8 @@
+//files where prettier format is not done
+/.vscode
+/node_modules
+./dist
+
+*.env
+.env
+.env.*
