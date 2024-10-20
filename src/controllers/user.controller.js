@@ -276,7 +276,7 @@ const updateAccountDetails =asyncHandler(async(req,res)=>{
         {new:true}
     ).select("-password")
     return res.status(200)
-    .json(200,user,"Account details updated")
+    .json(new ApiResponse(200,user,"Account details updated"))
 
 })
 //if u want to update files it is better to create a sep controller for it
